@@ -14,7 +14,7 @@ using Docker containers.
     1. [SQLite](#sqlite)
     1. [Db2](#db2)
     1. [MS SQL](#ms-sql)
-1. [Configure](#configure)
+1. [Initialize Senzing](#initialize-senzing)
 1. [References](#references)
 
 ## Install Senzing
@@ -51,9 +51,9 @@ proceed to [Configure](#configure) step.
 
 1. See [How to support MS SQL](support-mssql.md).
 
-## Configure
+## Initialize Senzing
 
-1. Configure volumes and database.
+1. Initialize Senzing using docker container or command line
     1. See [senzing/init-container](https://github.com/Senzing/docker-init-container) documentation.
 
 ## References
